@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(11, 52, 112) 100%);
+    background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(10, 10, 10) 90%);
     height: 100vh;
 }
 
@@ -8,7 +8,7 @@ header {
     align-content: center;
     margin-left: 175px;
     width: 80%;
-    background-color: rgba(18, 34, 68, 0.658);
+    background-color: rgba(9, 18, 36, 0.877);
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 7px;
@@ -185,8 +185,8 @@ li {
     padding: 9px;
     margin-left: 50px;
     margin-top: 50px;
-    font-family: 'Open Sans', Segoe UI, sans-serif;
-    font-size: 20px;
+    font-family: 'Abel', Segoe UI, sans-serif;
+    font-size: 22px;
     color: rgb(254, 254, 255);
     width: 50%;
     background-color: rgba(17, 16, 16, 0.562);
@@ -200,11 +200,11 @@ li {
     padding: 9px;
     margin-left: 50px;
     margin-top: 50px;
-    font-family: 'Open Sans', Segoe UI, sans-serif;
-    font-size: 20px;
+    font-family: 'Abel', Segoe UI, sans-serif;
+    font-size: 22px;
     color: rgb(254, 254, 255);
     width: 50%;
-    background-color: rgba(17, 16, 16, 0.815);
+    background-color: rgba(0, 0, 0, 0.815);
     border-radius: 20px;
     padding: 40px;
     display: flex;

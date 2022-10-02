@@ -1,0 +1,219 @@
+body {
+    background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(11, 52, 112) 100%);
+    height: 100vh;
+}
+
+header {
+    text-shadow: 1px 1px 2px rgb(13, 131, 160), 0 0 20px rgb(231, 235, 11), 0 0 5px rgb(52, 152, 165);
+    align-content: center;
+    margin-left: 175px;
+    width: 80%;
+    background-color: rgba(18, 34, 68, 0.658);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px;
+    outline-color: #af9f0ef6;
+    outline-width: 2px;
+    outline-style: dotted;
+    outline-offset: 1px;
+    box-shadow: 0px 0px 40px 20px rgb(7, 7, 7);
+
+}
+
+p {
+    padding: 9px;
+    font-family: 'Bahnschrift', Segoe UI, sans-serif;
+    font-size: 18px;
+    color: rgb(254, 254, 255);
+
+}
+
+
+
+li {
+    font-family: 'Bahnschrift', Segoe UI, sans-serif;
+    font-size: 16px;
+    color: rgb(254, 254, 255);
+    list-style-type: circle;
+}
+
+.titulo {
+    font-family: 'Bakbak One', Segoe UI, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.titulosbox {
+    font-family: 'Lobster', 'Segoe UI', sans-serif;
+    color: rgba(223, 97, 206, 0.993);
+    padding-left: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px 20px rgb(156, 8, 144);
+}
+
+.box {
+    margin: auto;
+    width: 80%;
+    border: 3px solid rgb(28, 109, 201);
+    padding: 8px;
+    border-radius: 20px;
+    outline-style: groove;
+    outline-color: rgba(116, 21, 194, 0.753);
+    outline-width: 10px;
+
+}
+
+.box1 {
+    margin-top: 30px;
+    margin-left: 175px;
+    width: 40%;
+    border: 3px solid rgba(255, 255, 255, 0.589);
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 20px rgb(0, 0, 0);
+}
+
+.box2 {
+    margin-top: 30px;
+    margin-left: 950px;
+    width: 37.5%;
+    border: 3px solid rgba(255, 255, 255, 0.589);
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 20px rgb(0, 0, 0);
+}
+
+.secciontitulo {
+    background-image: url("https://c.tenor.com/ShphQRiwlEgAAAAC/matrix-code.gif");
+    background-color: rgba(17, 16, 16, 0.562);
+    margin-left: 175px;
+    margin-top: 40px;
+    width: 80%;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 20px rgb(0, 0, 0);
+}
+
+.tituloproyecto1 {
+    font-family: 'Changa One', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.781);
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+
+}
+
+.proyecto1 {
+    margin-left: 175px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5370e5afe4b0a4617ea27c94/1532034195956-WLE7YRYKW8GDOJ6Y8TFJ/Header+Image+Noah-Rifle-3.png");
+    background-color: rgba(17, 16, 16, 0.562);
+    margin-top: 40px;
+    width: 80%;
+    align-content: center;
+    border-radius: 15px;
+    height: 430px;
+
+}
+
+.tituloproyecto2 {
+    font-family: 'Calistoga', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 44px;
+    color: rgb(231, 192, 17);
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+
+}
+
+.proyecto2 {
+    margin-left: 175px;
+    background-image: url("https://www.verkehrshaus.ch/fileadmin/_processed_/1/5/csm_0_head_shop_ebfed7982a.jpg");
+    background-color: rgba(17, 16, 16, 0.562);
+    margin-top: -20px;
+    width: 80%;
+    align-content: center;
+    border-radius: 15px;
+    height: 430px;
+
+}
+
+.tituloproyecto3 {
+    font-family: 'Audiowide', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 46px;
+    color: rgba(2, 255, 242, 0.705);
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 4px rgb(156, 0, 247);
+
+}
+/* 127, 0, 247
+0, 255, 242 */
+.proyecto3 {
+    margin-left: 175px;
+    background-image: url("https://hitstart.co.uk/wp-content/uploads/2022/02/220211_whatisretrogaming_f3.jpeg");
+    background-color: rgba(17, 16, 16, 0.562);
+    margin-top: -20px;
+    width: 80%;
+    align-content: center;
+    border-radius: 15px;
+    height: 430px;
+
+}
+
+.pproy1 {
+    padding: 9px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Open Sans', Segoe UI, sans-serif;
+    font-size: 20px;
+    color: rgb(254, 254, 255);
+    width: 50%;
+    background-color: rgba(17, 16, 16, 0.562);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+
+}
+
+.pproy2 {
+    padding: 9px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Open Sans', Segoe UI, sans-serif;
+    font-size: 20px;
+    color: rgb(254, 254, 255);
+    width: 50%;
+    background-color: rgba(17, 16, 16, 0.815);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+
+}
+
+footer {
+    background-color: #222222;
+    margin-left: -10px;
+    width: 101%;
+    
+}

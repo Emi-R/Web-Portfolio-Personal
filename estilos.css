@@ -58,11 +58,11 @@ li {
 }
 
 .titulosbox {
-    font-family: 'Lobster', 'Segoe UI', sans-serif;
-    color: rgba(223, 97, 206, 0.993);
+    font-family: 'Aldrich', 'Segoe UI', sans-serif;
+    color: rgba(240, 187, 14, 0.993);
     padding-left: 20px;
     font-size: 30px;
-    text-shadow: 1px 1px 20px rgb(156, 8, 144);
+    text-shadow: 1px 1px 20px rgb(221, 38, 6);
 }
 
 .box {

@@ -4,12 +4,18 @@ body {
     max-width:fit-content;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
-    text-shadow: 1px 1px 2px rgb(13, 131, 160), 0 0 20px rgb(231, 235, 11), 0 0 5px rgb(52, 152, 165);
     align-content: center;
+    display: flex;
+    flex-direction: row;
     margin-left: 175px;
-    width: 78.5%;
-    background-color: rgba(9, 18, 36, 0.877);
+    width: 80%;
+    height: 150px;;
+    background-color: rgba(13, 20, 34, 0.877);
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 7px;
@@ -23,6 +29,16 @@ header {
 
 }
 
+.navig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: rgb(255, 255, 255);
+}
+
 p {
     padding: 9px;
     font-family: 'Abel', Segoe UI, sans-serif;
@@ -31,9 +47,22 @@ p {
 
 }
 
+ul {
+    margin-left: 170px;
+    color: rgb(254, 254, 255);
+  }
 
 
-li {
+.navi {
+    font-family: 'Abel', Segoe UI, sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+    color: rgb(254, 254, 255);
+    display: inline;
+    
+}
+
+.lista {
     font-family: 'Abel', Segoe UI, sans-serif;
     font-size: 18px;
     margin-left: 40px;
@@ -41,17 +70,29 @@ li {
     list-style-type: circle;
 }
 
+a {
+    color: aliceblue;
+  }
+
+.active {
+  background-color: #04AA6D;
+}
 
 
 .titulo {
-    font-family: 'Bakbak One', Segoe UI, sans-serif;
-    font-size: 35px;
+    text-shadow: 1px 1px 2px rgb(13, 131, 160), 0 0 20px rgb(231, 235, 11), 0 0 5px rgb(52, 152, 165);
+    font-family: 'Righteous', Segoe UI, sans-serif;
+    font-size: 38px;
     margin-left: 100px;
+    margin-top: 17px;
+    letter-spacing: 12px;
 }
 
 .subtitulo {
-    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 135px;
+    font-family: 'Bakbak One', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    text-shadow: 1px 1px 2px rgb(13, 131, 160), 0 0 20px rgb(255, 255, 255), 0 0 5px rgb(20, 62, 179);
+    margin-left: 185px;
     color: rgb(255, 255, 255);
 }
 

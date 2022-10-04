@@ -15,7 +15,7 @@ header {
     margin-left: 175px;
     width: 78.5%;
     height: 150px;;
-    background-color: rgba(13, 20, 34, 0.877);
+    background-color: rgba(13, 13, 17, 0.603);
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 7px;
@@ -60,7 +60,7 @@ ul {
     margin-left: 25px;
     color: rgb(254, 254, 255);
     display: inline;
-    
+
 }
 
 .navi a:hover {
@@ -69,11 +69,14 @@ ul {
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+
   }
 
 @keyframes items {
     50% {text-shadow: 2px 2px 20px rgb(255, 251, 1); font-size: 32px;}
-    100% {text-shadow: 2px 2px 15px rgba(255, 217, 0, 0.815);font-size: 32px;}
+    100% {text-shadow: 2px 2px 15px rgba(255, 217, 0, 0.815);font-size: 32px;transform: scale(2, 3);}
 }
 
 .lista {
@@ -149,6 +152,22 @@ a:any-link {
     box-shadow: 0px 0px 15px 5px rgb(4, 42, 146);
 }
 
+.box0:hover
+{
+    color: rgb(244, 255, 240);
+    animation: anim0;
+    animation-duration: 900ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    transition: width 2s, height 4s;
+}
+
+@keyframes anim0 {
+    100% {box-shadow: 0px 0px 15px 20px rgb(4, 42, 146);}
+}
+
 .box1 {
     margin-top: 5px;
     margin-left: 175px;
@@ -159,6 +178,23 @@ a:any-link {
     box-shadow: 0px 0px 10px 5px rgb(196, 146, 9);
 }
 
+.box1:hover
+{
+    color: rgb(244, 255, 240);
+    animation: anim1;
+    animation-duration: 900ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    transition: width 2s, height 4s;
+}
+
+@keyframes anim1 {
+    100% {box-shadow: 0px 0px 15px 20px rgb(214, 177, 9);}
+}
+
+
 .box2 {
     margin-top: 5px;
     margin-left: 950px;
@@ -167,6 +203,22 @@ a:any-link {
     padding: 8px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px rgb(197, 12, 12);
+}
+
+.box2:hover
+{
+    color: rgb(244, 255, 240);
+    animation: anim2;
+    animation-duration: 900ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    transition: width 2s, height 4s;
+}
+
+@keyframes anim2 {
+    100% {box-shadow: 0px 0px 15px 20px rgba(219, 8, 8, 0.548);}
 }
 
 .secciontitulo {
